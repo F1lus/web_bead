@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#logo{
+    background: url('./images/F1.png') no-repeat rgb(34, 37, 41);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 39, 39) !important;
+}
+
+nav a:visited{
+    color: rgb(255, 39, 39);
+}
+
+.current{
+    text-decoration: underline !important;
+}
+
+.justify{
+    text-align: justify;
+}
+
+a:visited{
+    color: rgb(201, 122, 122);
+}
+
+.border-red{
+    border: 1px solid rgb(255, 39, 39);
+}
+/*----------------------*/
+.custom-shadow{
+    box-shadow: 0px 0px 10px rgb(34, 37, 41);
+}
+
+.large-text{
+    font-size: 2.5em;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.border-yellow{
+    border: 1px solid rgb(255, 255, 0);
+}
+
+.aqua-text{
+    color: rgb(0, 255, 255);
+}
